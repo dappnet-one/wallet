@@ -13,7 +13,7 @@
 }
 
 .UserProfile__top-nav {
-  background-color: $color-blue-dark;
+  background-color: $color-teal;
   padding: 0;
   .menu {
     background-color: transparent;
@@ -26,7 +26,7 @@
       background-color: transparent;
       color: $color-white;
       &:hover, &:focus {
-        background-color: $color-blue-black;
+        background-color: $color-teal;
       }
       &.active {
           @include themify($themes) {

@@ -254,24 +254,15 @@ export default class UserProfile extends React.Component {
             location,
             about,
             website,
-            cover_image,
         } = normalizeProfile(account);
         const website_label = website
             ? website.replace(/^https?:\/\/(www\.)?/, '').replace(/\/$/, '')
             : null;
 
-        let cover_image_style = {};
-        if (cover_image) {
-            cover_image_style = {
-                backgroundImage:
-                    'url(' + proxifyImageUrl(cover_image, '2048x512') + ')',
-            };
-        }
-
         return (
             <div className="UserProfile">
                 <div className="UserProfile__banner row expanded">
-                    <div className="column" style={cover_image_style}>
+                    <div className="column">
                         <h1>
                             <Userpic account={account.name} hideIfDefault />
                             {name || account.name}

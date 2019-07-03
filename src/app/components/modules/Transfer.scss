@@ -22,7 +22,7 @@
 }
 
 .react-autocomplete-input > .active {
-  background-color: #06D6A9;
+  background-color: #FFBD00;
   color: #333;
   @include themify($themes) {
     color: theme('textColorPrimary');

@@ -30,7 +30,7 @@
 
 .Header__logotype {
   transition: 0.2s all ease-in-out;
-  height: 37px;
+  height: 50px;
   display: flex;
   align-items: baseline;
   .icon-svg {
@@ -145,7 +145,7 @@ span.Header__hamburger.toggle-menu {
   color: #fff;
   @include themify($themes) {
       border-bottom: themed('borderLight');
-  }  
+  }
   @include MQ(M) {
     text-align: center;
   }
@@ -158,7 +158,7 @@ span.Header__hamburger.toggle-menu {
     &:hover, &:focus {
       color: #ccc;
     }
-  }  
+  }
 }
 
 .announcement-banner__text {

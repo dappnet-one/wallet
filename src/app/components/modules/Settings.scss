@@ -31,8 +31,8 @@
 	.button.toggle-nightmode:focus {
 		background-color: transparent;
 		box-shadow: none;
-		border: 1px solid #06D6A9;
-		color: #1FBF8F;
+		border: 1px solid #FFBD00;
+		color: #FFBD00;
 		font-size: 0.9rem;
 		font-weight: 400;
 		text-transform: uppercase;
@@ -79,8 +79,8 @@
 		.button.toggle-nightmode,
 		.button.toggle-nightmode:hover,
 		.button.toggle-nightmode:focus {
-			border: 1px solid #06D6A9;
-			color: #1FBF8F;
+			border: 1px solid #FFBD00;
+			color: #FFBD00;
 		}
 	}
 }
